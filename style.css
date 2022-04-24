@@ -1,0 +1,24 @@
+
+
+
+    /*HEADER*/
+
+.logoHeader{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    border: solid 2px;
+}
+
+.header{
+    background: rgb(124, 50, 63);
+}
+
+
+li{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+
