@@ -21,5 +21,12 @@ li{
     font-weight: 700;
 }
 
-
+main{
+    background-image: url(./imagenes/panes1.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    
+}
 
