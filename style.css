@@ -6,8 +6,8 @@
     /*HEADER*/
 
 .logoHeader{
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     border-radius: 100%;
     border: solid 2px;
 }
@@ -16,11 +16,11 @@
     background: rgb(124, 50, 63);
 }
       
-li{
+li :hover{
     font-size: 18px;
     font-weight: 700;
+    
 }
-
 
     /*MAIN-CONTENIDO*/
 
@@ -49,9 +49,20 @@ h1{
     margin-bottom: 2%;
 }
 
+    /* FOOTER-PIE*/
 
+.pie{
+    display: flex;
+    background: rgb(124, 50, 63);
+    
+}
 
-
+.pie-logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    border: solid 2px;
+}
 
 
 
