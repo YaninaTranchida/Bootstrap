@@ -26,7 +26,7 @@ li :hover{
 
 main{
     background-image: url(./imagenes/BG1.jpg);
-    height: 400px;
+    height: 450px;
     background-repeat: no-repeat;
     background-position: center; 
     background-size: cover;
@@ -52,22 +52,26 @@ h1{
     /* FOOTER-PIE*/
 
 .pie{
-    display: flex;
+    
     background: rgb(124, 50, 63);
+    color: black;
     
 }
 
 .pie-logo{
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     border-radius: 100%;
     border: solid 2px;
 }
 
+.pie-redes a{
+    color: black;
+}
 
-
-
-
+.pie-contacto{
+    font-weight: 500;   
+}
 
 
 
