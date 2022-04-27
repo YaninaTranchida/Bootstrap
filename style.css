@@ -80,10 +80,27 @@ h1{
 
 .card img{
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     
-    width: 400px;
-    height: 300px; 
+    width: auto;
+    height: 35rem; 
 }
+
+.main-cursos{
+    background: rgb(249, 222, 222);
+    height: auto;
+
+}
+
+.main-cursos h1{
+    text-align:center;
+    
+}
+
+
+
+
+
+
 
 
