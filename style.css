@@ -3,6 +3,13 @@
     padding: 0;
 }
 
+body{
+    background: rgb(249, 222, 222);
+    position: relative;
+    
+}
+    
+
     /*HEADER*/
 
 .logoHeader{
@@ -54,9 +61,11 @@ h1{
     /* FOOTER-PIE*/
 
 .pie{
-    
-    background: rgb(124, 50, 63);
+    background: rgba(124, 50, 64, 0.897);
     color: black;
+    position: absolute;
+    width: 100%;
+   
     
 }
 
@@ -65,7 +74,28 @@ h1{
     width: 80px;
     border-radius: 100%;
     border: solid 2px;
+    animation-name:logoRotador;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    
 }
+
+@keyframes logoRotador {
+    0%{transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(45deg);
+    }
+    50%{
+        transform: rotate(90deg);
+     }
+     75%{
+         transform: rotate(180deg);
+     }
+     100%{
+         transform: rotate(360deg);
+     }
+ }
 
 .pie-redes a{
     color: black;
@@ -83,13 +113,18 @@ h1{
 .card img{
     display: flex;
     flex-direction: row-reverse;
-    
     width: auto;
     height: 35rem; 
 }
 
+.card img:hover{
+    height: 40rem;
+    transition: width 2s;
+
+}
+
 .bg-main{
-    background: rgb(249, 222, 222);
+    
     height: auto;
 
 }
@@ -119,14 +154,12 @@ h1{
     font-size: 16px;
     background: rgba(100, 99, 99, 0.331);
     border: solid 1px;
-    
 }
+
 h5{
     color: black;
     background: rgba(100, 99, 99, 0.331);
     border: solid 1px;
- 
-    
 }
 
 
