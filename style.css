@@ -4,11 +4,9 @@
 }
 
 body{
-    background: rgb(249, 222, 222);
-    position: relative;
-    
+    background: rgb(249, 222, 222); 
 }
-    
+
 
     /*HEADER*/
 
@@ -33,8 +31,7 @@ li :hover{
 
 .bg-pan{
     background-image: url(./imagenes/BG1.jpg);
-    height: 450px;
-    background-repeat: no-repeat;
+    height: 75vh;
     background-position: center; 
     background-size: cover;
     
@@ -63,10 +60,7 @@ h1{
 .pie{
     background: rgba(124, 50, 64, 0.897);
     color: black;
-    position: absolute;
-    width: 100%;
-   
-    
+        
 }
 
 .pie-logo{
@@ -99,11 +93,13 @@ h1{
 
 .pie-redes a{
     color: black;
+
 }
 
 .pie-contacto{
     font-weight: 500; 
-    text-align: end;  
+    text-align: center;
+    margin-top: 2%;
 }
 
 
@@ -144,8 +140,8 @@ h1{
 /* carrousel - productos*/
 
 
-.carousel-item{
-    height: 600px;
+.carousel-item img{
+    height: 750px;
 
 }
 
