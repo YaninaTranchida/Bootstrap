@@ -18,7 +18,7 @@ body{
 }
     
 .header{
-    background: rgba(124, 50, 64, 0.897);
+    background:#7c3240e5;
 }
       
 li :hover{
@@ -58,7 +58,7 @@ h1{
     /* FOOTER-PIE*/
 
 .pie{
-    background: rgba(124, 50, 64, 0.897);
+    background: #7c3240e5;
     color: black;
         
 }
