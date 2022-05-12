@@ -1,14 +1,42 @@
 $principal-color: #f9dede;
 $bgpie-header: #7c3240e5;
 $tipografia-family:  Georgia, 'Times New Roman', Times, serif;
+$color-tipografia: black;
 
 
-/*MAPS*/
-$tipografia(
-    titulos:
-    subtiitulos
-    textos
 
-)
+$tamanio-tipografia:(
+    letra-principal: 18px,
+    letra-secundaria: 16px,
+);
+
+$colores:(
+    bg-principal: #f9dede,
+    bg-secundario: #7c3240e5,
+    bg-terciario: #64636354,
+);
+
+@mixin logo ($height,$width,$border-radius,$border){
+    height: $height;
+    width: $width;
+    border-radius:$border-radius;
+    border: $border;
+};
+
+@mixin pie-logo($height, $width, $border-radius, $border){
+    height: $height;
+    width: $width;
+    border-radius:$border-radius;
+    border: $border;
+};
+
+%bloque-flex{
+    display: flex;
+    flex-direction: row-reverse;
+    width: auto;
+};
+
+
+
 
 

@@ -1,0 +1,31 @@
+.card img{
+    @extend %bloque-flex;
+    height: 35rem; 
+}
+
+.card img:hover{
+    height: 40rem;
+    transition: width 2s;
+}
+
+.bg-main{
+    height: auto;
+}
+
+.main-cursos h1{
+    text-align:center;        
+}
+
+.parrafoCurso{
+    padding-top: 50px;
+    padding-bottom: 25px;
+    font-size: map-get($tamanio-tipografia, letra-secundaria);
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,43 @@
+.pie{
+    background: map-get($colores,bg-secundario);
+    color:$color-tipografia;        
+}
+.pie-redes{
+    border-radius: solid 2%;
+}
+
+.pie-redes a{
+    font-size: map-get($tamanio-tipografia, letra-secundaria);
+    color: $color-tipografia;
+    border-radius: solid 2%;;
+}
+
+.pie-logo{
+   @include pie-logo(80px,80px,100%, solid 2px);
+    animation-name:logoRotador;
+    animation-duration: 4s;
+    animation-delay: 1s;   
+}
+
+@keyframes logoRotador {
+    0%{transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(45deg);
+    }
+    50%{
+        transform: rotate(90deg);
+     }
+     75%{
+         transform: rotate(180deg);
+     }
+     100%{
+         transform: rotate(360deg);
+     }
+ }
+
+.pie-contacto{
+    font-weight: 500; 
+    text-align: center;
+    margin-top: 2%;
+}

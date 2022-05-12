@@ -1,13 +1,92 @@
-.pie {
-  background: #7c3240e5;
-  color: black;
-  font-weight: 500; }
+.card img {
+  display: flex;
+  flex-direction: row-reverse;
+  width: auto; }
+
+.card img {
+  display: flex;
+  flex-direction: row-reverse;
+  width: auto; }
+
+.logoHeader {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  border: solid 2px; }
 
 .header {
   background: #7c3240e5; }
 
-.textoMap {
-  font-family: Georgia, "Times New Roman", Times, serif; }
+li :hover {
+  font-size: 18px;
+  font-weight: 700; }
 
-body {
-  background: #f9dede; }
+.carousel-item img {
+  height: 750px; }
+
+.carousel-caption p {
+  color: black;
+  font-size: 16px;
+  background: #64636354;
+  border: solid 1px; }
+
+h5 {
+  color: black;
+  background: #64636354;
+  border: solid 1px; }
+
+.pie {
+  background: #7c3240e5;
+  color: black; }
+
+.pie-redes {
+  border-radius: solid 2%; }
+
+.pie-redes a {
+  font-size: 16px;
+  color: black;
+  border-radius: solid 2%; }
+
+.pie-logo {
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  border: solid 2px;
+  animation-name: logoRotador;
+  animation-duration: 4s;
+  animation-delay: 1s; }
+
+@keyframes logoRotador {
+  0% {
+    transform: rotate(0deg); }
+  25% {
+    transform: rotate(45deg); }
+  50% {
+    transform: rotate(90deg); }
+  75% {
+    transform: rotate(180deg); }
+  100% {
+    transform: rotate(360deg); } }
+
+.pie-contacto {
+  font-weight: 500;
+  text-align: center;
+  margin-top: 2%; }
+
+.card img {
+  height: 35rem; }
+
+.card img:hover {
+  height: 40rem;
+  transition: width 2s; }
+
+.bg-main {
+  height: auto; }
+
+.main-cursos h1 {
+  text-align: center; }
+
+.parrafoCurso {
+  padding-top: 50px;
+  padding-bottom: 25px;
+  font-size: 16px; }

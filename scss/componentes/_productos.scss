@@ -1,0 +1,16 @@
+.carousel-item img{
+    height: 750px;
+}
+
+.carousel-caption p{
+    color: $color-tipografia;
+    font-size: map-get($tamanio-tipografia, letra-secundaria);
+    background: map-get($colores,bg-terciario);
+    border: solid 1px;
+}
+
+h5{
+    color:$color-tipografia;
+    background: map-get($colores,bg-terciario);
+    border: solid 1px;
+}

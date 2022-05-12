@@ -1,0 +1,12 @@
+.logoHeader{
+    @include logo (100px, 100px,100%,solid 2px);   
+}
+    
+.header{
+    background:$bgpie-header;
+}
+      
+li :hover{
+    font-size: map-get($tamanio-tipografia,letra-principal);
+    font-weight: 700;  
+}
