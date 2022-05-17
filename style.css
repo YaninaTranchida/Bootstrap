@@ -4,8 +4,7 @@
 }
 
 body{
-    background: rgb(249, 222, 222);  
-    
+    background: rgb(249, 222, 222);     
 }
 
 
@@ -77,8 +76,7 @@ h1{
     border: solid 2px;
     animation-name:logoRotador;
     animation-duration: 4s;
-    animation-delay: 1s;
-    
+    animation-delay: 1s; 
 }
 
 @keyframes logoRotador {
@@ -99,7 +97,7 @@ h1{
  }
 
 .pie-contacto{
-    font-weight: 400; 
+    font-weight: 600; 
     text-align: center;
     margin-top: 2%;
 }
@@ -148,6 +146,9 @@ h5{
     border: solid 1px;
 }
 
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    filter: invert(150%);
+  }
 
 
 .imgnormalizada img{
