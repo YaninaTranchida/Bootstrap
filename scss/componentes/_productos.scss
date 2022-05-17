@@ -1,7 +1,3 @@
-.carousel-item img{
-    height: 750px;
-}
-
 .carousel-caption p{
     color: $color-tipografia;
     font-size: map-get($tamanio-tipografia, letra-secundaria);
@@ -14,3 +10,22 @@ h5{
     background: map-get($colores,bg-terciario);
     border: solid 1px;
 }
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    filter: invert(150%);
+  }
+
+
+.imgnormalizada img{
+    width: 500px;
+    height: 500px;
+}
+
+.container-img{
+    background: rgba(0, 0, 0, 0.822);
+    padding: 5px;
+    max-width: 550px !important;
+}
+
+
+

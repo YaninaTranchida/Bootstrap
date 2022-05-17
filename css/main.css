@@ -3,10 +3,20 @@
   flex-direction: row-reverse;
   width: auto; }
 
+.cuerpoTxt p {
+  margin-left: 35%;
+  margin-right: 2%;
+  margin-top: 2%; }
+
 .card img {
   display: flex;
   flex-direction: row-reverse;
   width: auto; }
+
+.cuerpoTxt p {
+  margin-left: 35%;
+  margin-right: 2%;
+  margin-top: 2%; }
 
 .logoHeader {
   height: 100px;
@@ -21,9 +31,6 @@ li :hover {
   font-size: 18px;
   font-weight: 700; }
 
-.carousel-item img {
-  height: 750px; }
-
 .carousel-caption p {
   color: black;
   font-size: 16px;
@@ -34,6 +41,18 @@ h5 {
   color: black;
   background: #64636354;
   border: solid 1px; }
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  filter: invert(150%); }
+
+.imgnormalizada img {
+  width: 500px;
+  height: 500px; }
+
+.container-img {
+  background: rgba(0, 0, 0, 0.822);
+  padding: 5px;
+  max-width: 550px !important; }
 
 .pie {
   background: #7c3240e5;
@@ -90,3 +109,29 @@ h5 {
   padding-top: 50px;
   padding-bottom: 25px;
   font-size: 16px; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: #f9dede; }
+
+.bg-pan {
+  background-image: url(./imagenes/BG1.jpg);
+  height: 70vh;
+  background-position: center;
+  background-size: cover; }
+
+.cuerpoTxt p {
+  font-weight: 350;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  height: 70px;
+  text-align: right; }
+
+h1 {
+  margin-left: 35%;
+  margin-bottom: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%; }

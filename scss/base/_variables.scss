@@ -4,7 +4,6 @@ $tipografia-family:  Georgia, 'Times New Roman', Times, serif;
 $color-tipografia: black;
 
 
-
 $tamanio-tipografia:(
     letra-principal: 18px,
     letra-secundaria: 16px,
@@ -36,7 +35,11 @@ $colores:(
     width: auto;
 };
 
-
+%bloque-margin{
+    margin-left: 35%;
+    margin-right: 2%;
+    margin-top: 2%;
+};
 
 
 
