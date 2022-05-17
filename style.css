@@ -4,7 +4,8 @@
 }
 
 body{
-    background: rgb(249, 222, 222); 
+    background: rgb(249, 222, 222);  
+    
 }
 
 
@@ -30,13 +31,13 @@ li :hover{
 
 .bg-pan{
     background-image: url(./imagenes/BG1.jpg);
-    height: 75vh;
+    height: 70vh;
     background-position: center; 
     background-size: cover;   
 }
 
 .cuerpoTxt p{
-    font-weight: 250;
+    font-weight: 350;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
     height: 70px;
@@ -98,7 +99,7 @@ h1{
  }
 
 .pie-contacto{
-    font-weight: 500; 
+    font-weight: 400; 
     text-align: center;
     margin-top: 2%;
 }
