@@ -8,16 +8,6 @@
   margin-right: 2%;
   margin-top: 2%; }
 
-.card img {
-  display: flex;
-  flex-direction: row-reverse;
-  width: auto; }
-
-.cuerpoTxt p {
-  margin-left: 35%;
-  margin-right: 2%;
-  margin-top: 2%; }
-
 .logoHeader {
   height: 100px;
   width: 100px;
@@ -25,7 +15,7 @@
   border: solid 2px; }
 
 .header {
-  background: #7c3240e5; }
+  background: #7c3240b8; }
 
 li :hover {
   font-size: 18px;
