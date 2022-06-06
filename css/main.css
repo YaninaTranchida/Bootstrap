@@ -100,6 +100,9 @@ h5 {
   padding-bottom: 25px;
   font-size: 16px; }
 
+.card-text {
+  font-weight: 550; }
+
 .bg-pan {
   background-image: url(../imagenes/BG1.jpg);
   height: 70vh;
@@ -125,3 +128,7 @@ h1 {
 
 body {
   background: #f9dede; }
+
+@media (max-width: 780px) {
+  .mapsde {
+    width: 450px; } }
