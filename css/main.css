@@ -25,7 +25,8 @@ li :hover {
   color: black;
   font-size: 16px;
   background: #64636354;
-  border: solid 1px; }
+  border: solid 1px;
+  font-weight: 650; }
 
 h5 {
   color: black;
@@ -99,9 +100,6 @@ h5 {
   padding-top: 50px;
   padding-bottom: 25px;
   font-size: 16px; }
-
-.card-text {
-  font-weight: 550; }
 
 .bg-pan {
   background-image: url(../imagenes/BG1.jpg);
